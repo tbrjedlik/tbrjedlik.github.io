@@ -1,11 +1,158 @@
+
+nav{
+    background-color: white;
+    height: 100px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: auto;
+}
+
+nav ul li a{
+    color: black;
+    font-size: 20px;
+    padding: 7px 13px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Formula1 Display Regular', 'Impact', 'Hattenschweiler', 'Arial Black';
+
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    background: rgb(201, 0, 0);
+    color: white;
+    transition: .5s;
+    border-radius: 5px;
+}
+
 table {
     border-collapse: collapse;
-    border: 3px solid red;
-    margin-left: 100px;
+    border: 5px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    text-align: center;
+    font-family: Arial, 'Bahnscrift Condensed';
 }
 
 td, th {
-    border: 2px solid red;
+    border: 2px solid white;
     margin-left: 100px;
     padding: 7px;
+    color: black;
+    text-shadow: 0 0 1px black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: white;
+    font-size: 25px;
+    font-family: 'Formula1 Display Regular', 'Impact', 'Hattenschweiler', 'Arial Black';
+    text-shadow: 0 0 4px black;
+}
+
+.cim{
+    font-weight: bolder;
+    font-family: 'Formula1 Display Regular', 'Impact', 'Hattenschweiler', 'Arial Black';
+    text-align: center;
+    font-size: 40px;
+    margin: 20px;
+    text-shadow: 0 0 4px black;
+    text-transform: uppercase;
+    color: white;
+
+}
+
+#header {
+    background-color: white;
+    border-radius: 7px 7px 0px 0px;
+}
+
+#content{
+    background-color: red;
+}
+
+.logo {
+    height: 35px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-right: auto;
+    display: block;
+}
+
+p, b, i {
+    font-family: Arial, 'Bahnscrift Condensed';
+    font-size: medium;
+    text-shadow: 0 0 0.2px black;
+    text-align: justify;
+    margin: 15x;
+}
+
+.keret{
+    background-color: red;
+    padding: 10px;
+    border: 8px solid white;
+    border-radius: 20px;
+}
+
+body {
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
+    margin: 3% 25%;
+}
+
+.feher_hatter{
+    background-color: white;
+}
+
+.red_background{
+    background: red;
+}
+
+.mercedes_kep{
+    display: flex;
+    float: left;
+    height: 300px;
+    margin: 0px 15px 15px 0px;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+.versenyzok_kep{
+    display: flex;
+    border-radius: 10px;
+    border: 5px solid white;
+    margin: 10px 10px 10px 100px;
+}
+
+.vettel_kep{
+    display: flex;
+    float: left;
+    height: 250px;
+    margin: 15px;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+.halo_kep{
+    display: flex;
+    float: right;
+    height: 200px;
+    margin: 15px;
+    border: 5px solid white;
+    border-radius: 10px;
 }

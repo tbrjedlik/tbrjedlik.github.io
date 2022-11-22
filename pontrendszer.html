@@ -4,36 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
+
+
     <title>Pontrendszer</title>
 </head>
+
 <body>
 
-    <div class="logo">
-        <br>
-        <a href="https://www.formula1.com/" target="formula1">
-            <img src="f1.png" alt="Formula-1 logo" title="A Formula-1 hivatalos oldala" class="kep">
-        </a>
-       <br>
-    </div>
-    <hr>
-    <p class="cim">
-        PONTRENDSZER
-    </p>
-    <hr>
-<div class="feher_hatter">
-  <br>
-    <table>
+    <div class="keret">
+        <div id="header">
+            <nav>
+                <a href="https://www.formula1.com/" target="formula1">
+                    <img src="f1.png" alt="Formula-1 logo" title="A Formula-1 hivatalos oldala" class="logo">
+                </a>
+                <ul>
+                    <li class="active"><a href="index.html">Főoldal</a></li>
+                    <li><a href="pontrendszer.html">Pontrendszer</a></li>
+                    <li><a href="tortenete.html">Története</a></li>
+                </ul>
+            </nav>
+        </div>
+        <hr>
+            <p class="cim">
+                Pontrendszer
+            </p>
+            <hr>
+            
+    <div id="content">    
+        <table>
             <tr>
-                <th></th>
-                <th>2019-</th>
-                <th>2010-2018</th>
-                <th>2003-2009</th>
-                <th>1991-2002</th>
-                <th>1962-1990</th>
+                <th rowspan="2"></th>
+                <th rowspan="2">2019-</th>
+                <th rowspan="2">2010-2018</th>
+                <th rowspan="2">2003-2009</th>
+                <th rowspan="2">1991-2002</th>
+                <th rowspan="2">1962-1990</th>
                 <th colspan="2">1961</th>
-                <th>1960</th>
-                <th>1950-1959</th>
+                <th rowspan="2">1960</th>
+                <th rowspan="2">1950-1959</th>
+            </tr>
+            <tr>
+                <td title="Egyéni">E</td>
+                <td title="Konstruktőri">K</td>
             </tr>
             <tr>
                 <th>1. hely</th>
@@ -102,19 +115,10 @@
                 <td>+1</td>
             </tr>
         </table>
-        <br>
+        </div>
+        <hr>
+        
+        
     </div>
-    <hr>
-<h2>
-    <a href="index.html">
-    Főoldal
-    </a>
-</h2>
-
-
-
-
-
-
 </body>
 </html>
